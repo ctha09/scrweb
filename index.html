@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080909">
+  <meta name="description" content="Remeras personalizadas, impresiones, ploteos y merchandising. Soldado con Resaca, Montecarlo, Misiones. Envíos a todo el país.">
+  <title>Soldado con Resaca — Personalización Extrema</title>
+  <link rel="icon" href="assets/logo-soldado.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+  <script src="catalogo.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="progress" id="progress" aria-hidden="true"></div>
+  <div class="cursor-brand" id="cursor-brand" aria-hidden="true"><img src="assets/logo-soldado.png" alt=""></div>
+  <div class="cursor-dot" id="cursor-dot" aria-hidden="true"></div>
+
+  <header class="site-header" id="arriba">
+    <div class="wrap header-inner">
+      <a class="brand sfx" href="#inicio" aria-label="Soldado con Resaca, ir al inicio">
+        <img src="assets/logo-soldado.png" alt="" class="brand-mark">
+        <span class="brand-word"><strong>SOLDADO <em>CON RESACA</em></strong><small>Diseño, impresión y merchandising</small></span>
+      </a>
+      <button type="button" id="menu-toggle" class="menu-toggle sfx" aria-expanded="false" aria-controls="site-nav" aria-label="Abrir menú"><span></span><span></span><span></span></button>
+      <nav id="site-nav" class="site-nav" aria-label="Navegación principal">
+        <a class="sfx" href="#marca">La marca</a><a class="sfx" href="#productos">Productos</a><a class="sfx" href="#portafolio">Portafolio</a><a class="sfx" href="#contacto">Contacto</a>
+        <a class="nav-whatsapp sfx" href="https://wa.me/5493751246552?text=Hola%2C%20quiero%20hacer%20una%20consulta" target="_blank" rel="noopener noreferrer">WhatsApp <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-grid-bg" aria-hidden="true"></div>
+      <div class="wrap hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="signal-dot"></span> MONTECARLO · MISIONES · ARGENTINA</p>
+          <p class="hero-overline">PERSONALIZACIÓN EXTREMA</p>
+          <h1 id="hero-title">TU IDEA.<br> <span>NUSTRA MISIÓN.</span></h1>
+          <p class="hero-description">Remeras personalizadas, impresiones, ploteos y merchandising con envíos a todo el país. Elegí el diseño que más te guste y nosotros lo hacemos realidad.</p>
+          <div class="hero-buttons"><a class="btn btn-green sfx" href="#productos">Explorar productos <span aria-hidden="true">↘</span></a><a class="btn btn-outline sfx" href="https://wa.me/5493751246552?text=Hola%2C%20quiero%20hacer%20un%20pedido" target="_blank" rel="noopener noreferrer">Pedir por WhatsApp <span aria-hidden="true">↗</span></a></div>
+          <div class="hero-meta"><span>01 / 06 CATEGORÍAS</span><span class="meta-line"></span><span>TRABAJOS PERSONALIZADOS</span></div>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="halo"></div>
+          <div class="hero-visual-frame"><img class="hero-emblem" src="assets/logo-soldado.png" alt="Logotipo de Soldado con Resaca"></div>
+          <span class="visual-top">SWCR / EST. MISIONES</span><span class="visual-bottom">DISEÑO CON ACTITUD</span>
+        </div>
+      </div>
+      <div class="wrap scroll-hint"><span class="scroll-line"></span> DESLIZÁ PARA EXPLORAR</div>
+    </section>
+
+    <div class="ticker" aria-hidden="true"><div class="ticker-inner">DISEÑO PERSONALIZADO <span>✦</span> ENVÍOS A TODO EL PAÍS <span>✦</span> IMPRESIONES Y GRABADOS <span>✦</span> MERCHANDISING <span>✦</span> DISEÑO PERSONALIZADO <span>✦</span> ENVÍOS A TODO EL PAÍS <span>✦</span></div></div>
+
+    <section class="section mission" id="marca" aria-labelledby="mission-title">
+      <div class="wrap mission-layout"><div class="reveal"><p class="kicker">01 / LA MARCA</p><h2 class="section-title" id="mission-title">NACIMOS PARA <span>HACERLO DIFERENTE.</span></h2></div><div class="mission-copy reveal"><p>Somos <strong>Soldado con Resaca</strong>, un emprendimiento de Montecarlo, Misiones, especializado en personalización, impresión, ploteos y merchandising.</p><p>Convertimos ideas en productos que representan tu estilo, tu negocio o ese regalo que querés hacer único.</p><div class="mission-points"><span><b>01</b> Creatividad</span><span><b>02</b> Personalización</span><span><b>03</b> Identidad</span></div></div></div>
+    </section>
+
+    <section class="section products-overview" id="productos" aria-labelledby="products-title">
+      <div class="wrap"><div class="section-header reveal"><div><p class="kicker">02 / EL ARSENAL</p><h2 class="section-title" id="products-title">NUESTROS <span>PRODUCTOS.</span></h2></div><p class="section-intro">Explorá cada categoría y descubrí ejemplos de trabajos. Consultá directamente por WhatsApp.</p></div>
+        <nav class="category-index reveal" id="category-index" aria-label="Ir a una categoría de productos"></nav>
+      </div>
+    </section>
+
+    <section class="section portfolio-section" id="portafolio" aria-labelledby="portfolio-title">
+      <div class="wrap"><div class="section-header reveal"><div><p class="kicker">03 / TRABAJOS DESTACADOS</p><h2 class="section-title" id="portfolio-title">PORTAFOLIO <span>POR CATEGORÍA.</span></h2></div><p class="section-intro">Entrá a cada sección, mirá las fotos en grande y consultá por el producto que te interese.</p></div>
+        <div id="portfolio-content"></div>
+      </div>
+    </section>
+
+    <section class="cta-band section" aria-labelledby="cta-title"><div class="wrap cta-layout reveal"><div><p class="kicker">¿TENÉS UN DISEÑO EN MENTE?</p><h2 id="cta-title">LO HACEMOS <span>REALIDAD.</span></h2><p>Contanos qué querés personalizar. Te ayudamos con tu proyecto.</p></div><a class="btn btn-green sfx" href="https://wa.me/5493751246552?text=Hola%2C%20tengo%20una%20idea%20para%20personalizar" target="_blank" rel="noopener noreferrer">Hablemos por WhatsApp <span aria-hidden="true">↗</span></a></div></section>
+
+    <section class="section contact-section" id="contacto" aria-labelledby="contact-title"><div class="wrap"><div class="section-header reveal"><div><p class="kicker">04 / INFORMACIÓN Y UBICACIÓN</p><h2 class="section-title" id="contact-title">CUARTEL <span>GENERAL.</span></h2></div><p class="section-intro">Visitanos en Montecarlo o escribinos para consultas, presupuestos y pedidos.</p></div>
+      <div class="contact-grid"><div class="contact-panel reveal"><h3>INFORMACIÓN DE CONTACTO</h3><div class="contact-entry"><span class="contact-symbol">⌖</span><div><h4>Ubicación</h4><p>Calle Dr. Walter 20<br>Montecarlo, Misiones, Argentina</p></div></div><div class="contact-entry"><span class="contact-symbol">☎</span><div><h4>Teléfono del local</h4><a href="tel:03751444350">03751 44-4350</a></div></div><div class="contact-entry"><span class="contact-symbol">✉</span><div><h4>Email</h4><a href="mailto:soldadoconresaca@gmail.com">soldadoconresaca@gmail.com</a></div></div><div class="contact-entry"><span class="contact-symbol">◷</span><div class="hours-block"><h4>Horarios de atención</h4><div class="hours-line"><span>Lunes a viernes</span><span>08:00–12:00<br>16:00–19:00</span></div><div class="hours-line"><span>Sábados y domingos</span><span>Cerrado</span></div></div></div><a class="btn btn-green sfx contact-cta" href="https://wa.me/5493751246552?text=Hola%2C%20quiero%20hacer%20una%20consulta" target="_blank" rel="noopener noreferrer">Escribir por WhatsApp <span aria-hidden="true">↗</span></a></div>
+      <div class="map-panel reveal"><iframe title="Mapa de la ubicación de Soldado con Resaca" src="https://www.google.com/maps?q=Calle%20Dr.%20Walter%2020%2C%20Montecarlo%2C%20Misiones%2C%20Argentina&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><a class="map-link sfx" href="https://www.google.com/maps/search/?api=1&query=Calle+Dr.+Walter+20%2C+Montecarlo%2C+Misiones%2C+Argentina" target="_blank" rel="noopener noreferrer">Abrir ubicación en Google Maps ↗</a></div></div>
+      </div></section>
+  </main>
+
+  <footer class="site-footer"><div class="wrap footer-inner"><div class="footer-brand"><img src="assets/logo-soldado.png" alt="" width="58" height="58"><span><b>SOLDADO CON RESACA</b><small>Personalización, diseño y actitud.</small></span></div><div class="footer-links"><a class="sfx" href="#inicio">Inicio</a><a class="sfx" href="#productos">Productos</a><a class="sfx" href="#contacto">Contacto</a></div><div class="footer-right"><button class="sound-toggle sfx" type="button" id="sound-toggle" aria-pressed="true" aria-label="Desactivar sonidos de clic">♪ SONIDOS: ON</button><p>© 2026 Soldado con Resaca</p></div></div></footer>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Galería de imágenes de producto"><div class="lightbox-top"><span id="lightbox-caption">Imagen del portafolio</span><button class="lightbox-close sfx" id="lightbox-close" type="button" aria-label="Cerrar galería">✕</button></div><div class="lightbox-middle"><button class="lightbox-arrow sfx" id="lightbox-prev" type="button" aria-label="Imagen anterior">‹</button><img id="lightbox-image" src="" alt=""><button class="lightbox-arrow sfx" id="lightbox-next" type="button" aria-label="Imagen siguiente">›</button></div><div class="lightbox-bottom"><span id="lightbox-count">1 / 3</span><span>Usá las flechas para navegar</span></div></dialog>
+</body>
+</html>
